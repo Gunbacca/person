@@ -12,3 +12,4 @@ C:\Users\Admin\Documents\GitHub\monogame2alex\person\obj\Debug\net8.0\refint\per
 C:\Users\Admin\Documents\GitHub\monogame2alex\person\obj\Debug\net8.0\person.pdb
 C:\Users\Admin\Documents\GitHub\monogame2alex\person\obj\Debug\net8.0\person.genruntimeconfig.cache
 C:\Users\Admin\Documents\GitHub\monogame2alex\person\obj\Debug\net8.0\ref\person.dll
+C:\Users\Admin\Documents\GitHub\monogame2alex\person\obj\Debug\net8.0\person.sourcelink.json

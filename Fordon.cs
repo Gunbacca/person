@@ -6,13 +6,19 @@ namespace person
         private string model;
         private string adress;
 
-        public void settillverkare(string t) {tillverkare = t;}
-        public string gettillverkare() {return tillverkare;}
-        public void setmodel(string m) {model = m;}
-        public string getmodel() {return model;}
-        public void setadress(string a) {adress = a;}
-        public string getsadress() {return adress;}
-
-
+        public string Tillverkare
+        {
+            get {return Tillverkare;}
+            set {Tillverkare=value;}
+        }
+        public int Model
+        {
+        get {return Model;}
+        set {Model = value;}
+        }
+        public string Adress{
+            get {return Adress;}
+            set {Adress = value;}
+        }
     }
 }

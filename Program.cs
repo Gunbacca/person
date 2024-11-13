@@ -1,11 +1,11 @@
 ﻿using person;
 
 Fordon f= new Fordon();
-f.settillverkare("volvo");
+f.Tillverkare = "volvo";
 f.setmodel("v70");
 f.setadress("Moisture farm 1138");
 
-Console.WriteLine(f.gettillverkare());
+Console.WriteLine(f.Tillverkare);
 Console.WriteLine(f.getmodel());
 Console.WriteLine(f.getsadress());
 
