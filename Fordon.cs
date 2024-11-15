@@ -6,19 +6,26 @@ namespace person
         private string model;
         private string adress;
 
+        public Fordon(string t,string m,string a)
+        {
+            tillverkare=t;
+            model=m;
+            adress=a;
+        }
+
         public string Tillverkare
         {
-            get {return Tillverkare;}
-            set {Tillverkare=value;}
+            get {return tillverkare;}
+            set {tillverkare=value;}
         }
-        public int Model
+        public string Model
         {
-        get {return Model;}
-        set {Model = value;}
+        get {return model;}
+        set {model = value;}
         }
         public string Adress{
-            get {return Adress;}
-            set {Adress = value;}
+            get {return adress;}
+            set {adress = value;}
         }
     }
 }
